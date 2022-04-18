@@ -45,4 +45,5 @@ function removeFromCart(button) {
             proizvod.querySelector('.actions button').innerText = 'Dodaj';
         }
     })
+
 }
