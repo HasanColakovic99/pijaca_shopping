@@ -25,6 +25,9 @@ function addToCart(proizvod) {
         proizvod.innerText = 'Dodato';
         proizvod.setAttribute('disabled', 'disabled');
     }
+    else {
+        alert("Količina mora biti veća od 0!");
+    }
 }
 
 function removeFromCart(button) {
