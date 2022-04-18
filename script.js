@@ -45,6 +45,4 @@ function removeFromCart(button) {
             proizvod.querySelector('.actions button').innerText = 'Dodaj';
         }
     })
-
-    console.log("Radi reda");
 }
